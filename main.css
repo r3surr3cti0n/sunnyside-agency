@@ -1,0 +1,57 @@
+/* 
+    font-family: 'Barlow', sans-serif;
+    600
+*/
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+/* 
+    font-family: 'Fraunces', serif;
+    700, 900
+*/
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+
+:root {
+	--graphic-color: hsl(167, 40%, 24%);
+	--photography-color: hsl(198, 62%, 26%);
+	--footer-color: hsl(168, 34%, 41%);
+	--link-after-red: hsl(7, 99%, 70%);
+	--link-after-yellow: hsl(51, 100%, 49%);
+	--title-color: hsl(212, 27%, 19%);
+	--card-link-color: hsl(212, 27%, 19%);
+	--very-dark-grayish-blue: hsl(213, 9%, 39%);
+	--dark-grayish-blue: hsl(232, 10%, 55%);
+	--grayish-blue: hsl(210, 4%, 67%);
+
+	--white: hsl(0, 0%, 100%);
+}
+
+/* reset */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* Style */
+body {
+	min-height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
