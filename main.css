@@ -140,3 +140,38 @@ header {
 	width: 100%;
 	flex-wrap: wrap-reverse;
 }
+
+/* Card + picture */
+.card-pic > * {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-basis: 30em;
+	min-height: 30em;
+	flex-grow: 1;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.text {
+	max-width: 25em;
+}
+.text > * + * {
+	margin-top: 1.6em;
+}
+
+.link {
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 0 0.3em;
+	font-weight: 900;
+	font-family: var(--fraunces-font);
+	font-size: 0.9rem;
+	color: var(--title-color);
+}
