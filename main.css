@@ -102,3 +102,21 @@ header {
 	background: url(images/desktop/image-header.jpg) no-repeat center 100% /
 		cover;
 }
+
+.header-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2em;
+	text-align: center;
+	font-size: 4rem;
+}
+
+.title {
+	font-family: var(--fraunces-font);
+	text-transform: uppercase;
+	color: var(--white);
+	font-weight: 900;
+	letter-spacing: 0.6rem;
+}
