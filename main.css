@@ -232,3 +232,30 @@ header {
 		order: 3;
 	}
 }
+
+/* Double card */
+.double-card {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.double-card .card {
+	flex-basis: 30em;
+	min-height: 30em;
+	flex-grow: 1;
+	align-items: flex-start;
+	justify-content: center;
+	text-align: center;
+	padding: 3em;
+}
+
+.graphic {
+	background: url(images/desktop/image-graphic-design.jpg) no-repeat top /
+		cover;
+	color: var(--graphic-color);
+}
+.photo {
+	background: url(images/desktop/image-photography.jpg) no-repeat top / cover;
+	color: var(--photography-color);
+}
