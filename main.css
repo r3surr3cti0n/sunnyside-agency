@@ -79,3 +79,26 @@ nav {
 	font-family: var(--barlow-font);
 	color: var(--white);
 }
+
+.contact {
+	font-size: 1rem;
+	font-weight: 700;
+	font-family: var(--fraunces-font);
+	color: var(--title-color);
+	text-transform: uppercase;
+	background: var(--white);
+	padding: 0.8em 1.6em;
+	border-radius: 2em;
+}
+
+/* Header */
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 10em;
+	width: 100%;
+	min-height: 100vh;
+	background: url(images/desktop/image-header.jpg) no-repeat center 100% /
+		cover;
+}
