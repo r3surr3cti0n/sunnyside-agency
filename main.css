@@ -91,6 +91,11 @@ nav {
 	border-radius: 2em;
 }
 
+main {
+	position: relative;
+	max-width: 1440px;
+}
+
 /* Header */
 header {
 	display: flex;
@@ -98,7 +103,8 @@ header {
 	align-items: center;
 	padding-top: 10em;
 	width: 100%;
-	min-height: 100vh;
+	height: 100vh;
+	max-height: 60em;
 	background: url(images/desktop/image-header.jpg) no-repeat center 100% /
 		cover;
 }
