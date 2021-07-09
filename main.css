@@ -59,10 +59,16 @@ body {
 }
 
 nav {
+	position: absolute;
+	top: 0;
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 	padding: 2.4em;
+}
+
+.logo {
+	min-width: 8em;
 }
 
 .links {
