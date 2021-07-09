@@ -207,3 +207,28 @@ header {
 	background: url(images/desktop/image-transform.jpg) no-repeat center center /
 		cover;
 }
+
+/* second card */
+.red::after {
+	content: "";
+	display: block;
+	position: absolute;
+	height: 8px;
+	bottom: -1px;
+	left: 0;
+	z-index: -1;
+	width: 100%;
+	border-radius: 10px;
+	background: hsl(7, 99%, 70%, 0.25);
+}
+
+.cup {
+	background: url(images/desktop/image-stand-out.jpg) no-repeat center center /
+		cover;
+}
+
+@media screen and (max-width: 1079px) {
+	.cup {
+		order: 3;
+	}
+}
