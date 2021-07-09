@@ -48,6 +48,10 @@ a {
 	color: inherit;
 }
 
+ul[class] {
+	list-style: none;
+}
+
 /* Style */
 body {
 	min-height: 100%;
@@ -76,7 +80,6 @@ nav {
 	display: flex;
 	gap: 2.4em;
 	justify-content: space-around;
-	list-style: none;
 	color: var(--white);
 }
 
@@ -258,4 +261,67 @@ header {
 .photo {
 	background: url(images/desktop/image-photography.jpg) no-repeat top / cover;
 	color: var(--photography-color);
+}
+
+/* Team */
+.team,
+.members,
+.member {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.team {
+	padding: 10em 5em;
+}
+
+.team-title {
+	font-family: var(--fraunces-font);
+	color: var(--grayish-blue);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 1.3rem;
+	font-weight: 700;
+	padding-bottom: 5em;
+}
+
+.members {
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 2.5em;
+}
+
+.member {
+	flex-direction: column;
+	flex-basis: 20em;
+	text-align: center;
+}
+
+.member > * + * {
+	margin-top: 3em;
+}
+
+.member-pic {
+	border-radius: 100vw;
+	max-width: 4.6875em;
+}
+
+.member-desc {
+	color: var(--very-dark-grayish-blue);
+}
+
+.member-name {
+	font-size: 1.25rem;
+	font-weight: 900;
+	font-family: var(--fraunces-font);
+	color: var(--title-color);
+}
+
+.member-title {
+	color: var(--grayish-blue);
+	font-size: 1rem;
+	padding-top: 0.8em;
 }
