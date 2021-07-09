@@ -126,3 +126,17 @@ header {
 	font-weight: 900;
 	letter-spacing: 0.6rem;
 }
+
+/* Cards */
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	/* justify-content: stretch; */
+	width: 100%;
+}
+
+.card {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap-reverse;
+}
