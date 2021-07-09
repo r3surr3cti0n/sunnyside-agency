@@ -351,3 +351,30 @@ header {
 	max-width: 40em;
 	flex-grow: 1;
 }
+
+/* Footer */
+footer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2em;
+	padding: 2em;
+	background: hsl(168, 60%, 63%);
+	color: var(--footer-color);
+}
+
+footer .links {
+	color: var(--footer-color);
+	gap: 1em;
+}
+
+.social {
+	margin-top: 2em;
+	gap: 0.5em;
+}
+
+footer a:hover {
+	color: white;
+}
