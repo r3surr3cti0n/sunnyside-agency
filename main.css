@@ -94,8 +94,13 @@ nav {
 	color: var(--title-color);
 	text-transform: uppercase;
 	background: var(--white);
-	padding: 0.8em 1.6em;
+	padding: 1em 1.6em;
 	border-radius: 2em;
+}
+
+.contact:hover {
+	color: var(--white);
+	background: rgba(255, 255, 255, 0.404);
 }
 
 main {
